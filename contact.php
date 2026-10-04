@@ -5,7 +5,7 @@ declare(strict_types=1);
  * SS Transync contact form for GoDaddy/cPanel hosting.
  * Change the recipient below if your business email is different.
  */
-$recipient = 'fleet@sstransync.com';
+$recipient = 'akarsh20039@gmail.com';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header('Location: index.html#contact', true, 303);
